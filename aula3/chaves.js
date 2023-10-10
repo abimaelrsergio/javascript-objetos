@@ -13,6 +13,7 @@ cliente.enderecos = [
     }
 ]
 
+// mdn: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Working_with_Objects
 // como obter todas as chaves de um objeto?
 const chavesDoObjeto = Object.keys(cliente);
 
