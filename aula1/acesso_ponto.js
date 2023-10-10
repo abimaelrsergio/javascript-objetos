@@ -7,6 +7,4 @@ const cliente = {
 
 console.log(cliente);
 console.log(`Nome: ${cliente.nome}, e a idade é: ${cliente.idade}`);
-console.log(`Nome: ${cliente['nome']}, e a idade é: ${cliente['idade']}`);
 console.log(`Os três primeiros digitos do cpf são ${cliente.cpf.substring(0, 3)}`);
-console.log(`Os três primeiros digitos do cpf são ${cliente['cpf'].substring(0, 3)}`);
